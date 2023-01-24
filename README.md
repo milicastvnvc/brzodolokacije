@@ -1,8 +1,3 @@
-Link za download aplikacije: http://147.91.204.115:10071
+BrzoDoLokacije
 
-Korisnicko ime za download: codeverse
-Lozinka za download: codeverse#7542
-
-Test korisnici za aplikaciju:
-Korisnik 1: - Username: milica - Password: milica
-Korisnik 2: - Username: lazar - Password: lazar
+Developed Android app in a student team using Kotlin and .NET. Our goal was to create a mobile application for sharing images and content related to certain travel destinations. We implemented use of maps.
