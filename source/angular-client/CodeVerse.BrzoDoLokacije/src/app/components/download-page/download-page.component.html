@@ -1,0 +1,14 @@
+<div class="border mt-5 p-3 d-flex flex-column justify-content-center">
+  <div class="logo d-flex justify-content-center">
+    <img src="assets/main-logo.png" class="w-75">
+  </div>
+  <h2 class="mt-3 m-auto">Brzo Do Lokacije</h2>
+  <h4 class="mt-3 m-auto mb-2">Preuzmite aplikaciju</h4>
+  <button class="btn btn-secondary w-100 mt-3" (click)="download()"><i class="fa fa-download"></i> Download</button>
+  <button class="btn btn-secondary w-100 mt-3" (click)="logout()"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</button>
+  <div *ngIf="error" class="alert alert-danger alert-dismissible mt-2 mb-0" role="alert">
+    Greska na serveru
+    <button type="button" class="btn-close" aria-label="Close" (click)="error = false"></button>
+  </div>
+</div>
+<div [ngBusy]="{busy: busy, message: 'Downloading...', backdrop: true, delay: 0, minDuration: 1000, templateNgStyle: { 'background-color': 'grey' }}"></div>

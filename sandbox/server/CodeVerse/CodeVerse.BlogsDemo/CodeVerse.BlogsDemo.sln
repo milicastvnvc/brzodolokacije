@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1EAE1780-FFAC-4001-97BA-D4FC9D31441F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BlogsDemo.API", "CodeVerse.BlogsDemo.API\CodeVerse.BlogsDemo.API.csproj", "{0463C806-E2B6-4BB7-B356-F31CEDF7B5D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0463C806-E2B6-4BB7-B356-F31CEDF7B5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0463C806-E2B6-4BB7-B356-F31CEDF7B5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0463C806-E2B6-4BB7-B356-F31CEDF7B5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0463C806-E2B6-4BB7-B356-F31CEDF7B5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0463C806-E2B6-4BB7-B356-F31CEDF7B5D9} = {1EAE1780-FFAC-4001-97BA-D4FC9D31441F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E5D8588-7538-4915-A3D3-CE929FB12D47}
+	EndGlobalSection
+EndGlobal

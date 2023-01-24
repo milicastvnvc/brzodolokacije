@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{11B864DE-AD84-497E-8169-FAA0F17587F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{E7793F0A-BC86-4AA9-876C-F26F2F5C05AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{B203F4A6-CEBD-46C4-BF15-20B7E88E7B22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{67DED9AD-6610-458F-BAA9-37FCF4E6F406}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{51ABEC26-B89B-4BF3-93D8-4251D30E45B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BrzoDoLokacije.API", "CodeVerse.BrzoDoLokacije.API\CodeVerse.BrzoDoLokacije.API.csproj", "{7C69037F-F59A-4CEE-8EDD-4C6DA70534D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BrzoDoLokacije.BL.Interfaces", "CodeVerse.BrzoDoLokacije.BL.Interfaces\CodeVerse.BrzoDoLokacije.BL.Interfaces.csproj", "{75DB2F30-5A71-4E58-9D8F-51C0869CCAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BrzoDoLokacije.BL.Implementation", "CodeVerse.BrzoDoLokacije.BL.Implementation\CodeVerse.BrzoDoLokacije.BL.Implementation.csproj", "{B7F855A6-798C-451C-9D78-CAD883B011D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BrzoDoLokacije.Common", "CodeVerse.BrzoDoLokacije.Common\CodeVerse.BrzoDoLokacije.Common.csproj", "{87FF2915-D484-46E3-B496-0A2E975D21A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BrzoDoLokacije.ServiceInitializer", "CodeVerse.BrzoDoLokacije.ServiceInitializer\CodeVerse.BrzoDoLokacije.ServiceInitializer.csproj", "{004A2460-4CAA-48B9-943D-F85B1DCC255E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BrzoDoLokacije.DAL.Interfaces", "CodeVerse.BrzoDoLokacije.DAL.Interfaces\CodeVerse.BrzoDoLokacije.DAL.Interfaces.csproj", "{FC007552-B1DD-4099-9217-D2CEC61C0B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BrzoDoLokacije.DAL.Implementation", "CodeVerse.BrzoDoLokacije.DAL.Implementation\CodeVerse.BrzoDoLokacije.DAL.Implementation.csproj", "{9A02FB19-A6F0-4405-B8BB-65A68EA9CBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVerse.BrzoDoLokacije.Models", "CodeVerse.BrzoDoLokacije.Models\CodeVerse.BrzoDoLokacije.Models.csproj", "{39C1948A-A04E-447E-97D8-30A587DD3C95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C69037F-F59A-4CEE-8EDD-4C6DA70534D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C69037F-F59A-4CEE-8EDD-4C6DA70534D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C69037F-F59A-4CEE-8EDD-4C6DA70534D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C69037F-F59A-4CEE-8EDD-4C6DA70534D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DB2F30-5A71-4E58-9D8F-51C0869CCAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DB2F30-5A71-4E58-9D8F-51C0869CCAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DB2F30-5A71-4E58-9D8F-51C0869CCAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DB2F30-5A71-4E58-9D8F-51C0869CCAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F855A6-798C-451C-9D78-CAD883B011D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F855A6-798C-451C-9D78-CAD883B011D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F855A6-798C-451C-9D78-CAD883B011D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F855A6-798C-451C-9D78-CAD883B011D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87FF2915-D484-46E3-B496-0A2E975D21A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FF2915-D484-46E3-B496-0A2E975D21A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FF2915-D484-46E3-B496-0A2E975D21A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FF2915-D484-46E3-B496-0A2E975D21A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004A2460-4CAA-48B9-943D-F85B1DCC255E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004A2460-4CAA-48B9-943D-F85B1DCC255E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004A2460-4CAA-48B9-943D-F85B1DCC255E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004A2460-4CAA-48B9-943D-F85B1DCC255E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC007552-B1DD-4099-9217-D2CEC61C0B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC007552-B1DD-4099-9217-D2CEC61C0B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC007552-B1DD-4099-9217-D2CEC61C0B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC007552-B1DD-4099-9217-D2CEC61C0B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A02FB19-A6F0-4405-B8BB-65A68EA9CBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A02FB19-A6F0-4405-B8BB-65A68EA9CBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A02FB19-A6F0-4405-B8BB-65A68EA9CBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A02FB19-A6F0-4405-B8BB-65A68EA9CBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C1948A-A04E-447E-97D8-30A587DD3C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C1948A-A04E-447E-97D8-30A587DD3C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C1948A-A04E-447E-97D8-30A587DD3C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C1948A-A04E-447E-97D8-30A587DD3C95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C69037F-F59A-4CEE-8EDD-4C6DA70534D1} = {11B864DE-AD84-497E-8169-FAA0F17587F3}
+		{75DB2F30-5A71-4E58-9D8F-51C0869CCAC7} = {E7793F0A-BC86-4AA9-876C-F26F2F5C05AD}
+		{B7F855A6-798C-451C-9D78-CAD883B011D9} = {E7793F0A-BC86-4AA9-876C-F26F2F5C05AD}
+		{87FF2915-D484-46E3-B496-0A2E975D21A1} = {67DED9AD-6610-458F-BAA9-37FCF4E6F406}
+		{004A2460-4CAA-48B9-943D-F85B1DCC255E} = {67DED9AD-6610-458F-BAA9-37FCF4E6F406}
+		{FC007552-B1DD-4099-9217-D2CEC61C0B96} = {B203F4A6-CEBD-46C4-BF15-20B7E88E7B22}
+		{9A02FB19-A6F0-4405-B8BB-65A68EA9CBEB} = {B203F4A6-CEBD-46C4-BF15-20B7E88E7B22}
+		{39C1948A-A04E-447E-97D8-30A587DD3C95} = {51ABEC26-B89B-4BF3-93D8-4251D30E45B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {846C4D95-C3A3-404E-8D26-F3FC4BFF7C55}
+	EndGlobalSection
+EndGlobal

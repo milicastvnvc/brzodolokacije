@@ -1,0 +1,21 @@
+<div class="border mt-5 p-3 d-flex flex-column">
+  <div class="logo d-flex justify-content-center">
+    <img src="assets/main-logo.png" class="w-75">
+  </div>
+  <div class="p-4 pb-0">
+    <form [formGroup]="loginForm" (submit)="onSubmit()">
+      <div class="form-group">
+        <input type="text" formControlName="username" class="form-control mt-2" id="username" aria-describedby="username" placeholder="Username">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control mt-2" name="password" formControlName="password" id="password" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-secondary w-100 mt-2">Login</button>
+      <div *ngIf="error" class="alert alert-danger alert-dismissible mt-2 mb-0" role="alert">
+        {{ errorMsg }}
+        <button type="button" class="btn-close" aria-label="Close" (click)="error = false"></button>
+      </div>
+    </form>
+  </div>
+  <div [ngBusy]="{busy: busy, message: 'Loading...', backdrop: true, delay: 0, minDuration: 1000, templateNgStyle: { 'background-color': 'grey' }}"></div>
+</div>
